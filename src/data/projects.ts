@@ -4,6 +4,8 @@ export const projects = [
     tech: ["React", "Node.js", "MongoDB", "RapidAPI"],
     description:
       "A full-stack multilingual document translation tool that allows users to upload PDF and TXT files and translate them into Indian languages including Hindi, Punjabi, and Gujarati. Features JWT-based user authentication, file parsing via Multer and pdf-parse, and seamless integration with RapidAPI for translation. Output is downloadable in both .txt and .pdf formats with accurate font rendering.",
+    futureScope:
+      "Preserve original PDF formatting post-translation using structured templates or OCR-based layout reconstruction.",
     demoLink: "https://text-translation-nu.vercel.app/login",
     githubLink: "https://github.com/JSingh1130/text-translation",
   },

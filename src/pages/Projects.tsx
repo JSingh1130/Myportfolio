@@ -31,12 +31,20 @@ export default function Projects() {
             <h3 className="text-2xl font-semibold text-blue-700 mb-3">
               {proj.title}
             </h3>
-            <p className="text-gray-700 mb-4 text-justify">
-              {proj.description}
-            </p>
+
+            <p className="text-gray-700 mb-4 text-justify">{proj.description}</p>
+
+            {/* Optional Future Scope */}
+            {proj.futureScope && (
+              <p className="text-sm text-blue-800 italic mb-4">
+                <strong>Future Scope:</strong> {proj.futureScope}
+              </p>
+            )}
+
             <p className="text-sm text-gray-500 mb-4">
               <strong>Tech Stack:</strong> {proj.tech.join(", ")}
             </p>
+
             <div className="flex gap-6 text-blue-600 text-sm font-medium">
               {proj.demoLink && (
                 <a
