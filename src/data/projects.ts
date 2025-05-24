@@ -14,6 +14,7 @@ export const projects = [
     tech: ["TypeScript", "PostgreSQL", "Ant Design"],
     description:
       "A robust Role-Based Access Control (RBAC) system developed using React, TypeScript, and PostgreSQL. Allows Admins to register software, Managers to review and approve/reject access requests, and Employees to submit requests. Built with secure JWT authentication, protected route middleware, and modular Ant Design dashboards tailored to each role. Database schema managed with TypeORM.",
+      demoLink: "https://user-access-project.vercel.app/signup",
     githubLink: "https://github.com/JSingh1130/user-access-project",
   },
   {
